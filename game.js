@@ -66,7 +66,7 @@ function hasPlayerWon(word) {
 
 // Start the game loop
 async function startGame() {
-  console.log(chalk.bgMagenta('\nWelcome to Wordle! \nThe secret word is related to INF1005 material. \nGood luck!\n'));
+  console.log(chalk.bgMagenta('\nWelcome to Guess the Word! \nThe secret word is related to INF1005 material. \nGood luck!\n'));
 
   // Select a random word from the array
   const randomWord = words[Math.floor(Math.random() * words.length)];
